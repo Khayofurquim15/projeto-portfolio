@@ -35,3 +35,7 @@ section#detalhes{
 img.foto-projeto{
     height: 100%;
 }
+
+#projeto-container .projeto:hover {
+    border-left-width: 20px;
+}
