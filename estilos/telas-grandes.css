@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+main{
+    display: grid;
+    grid-template-columns: auto 350px 1fr auto;
+
+}
+section#ficha {
+    grid-column: 2 / 3;
+    height: fit-content; /*FICA NA ALTURA DO CONTEUDO DA TELA*/
+    position: sticky;
+    top: 65px;
+}
+
+div.todas-skills{
+    height: 360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+section#detalhes{
+    grid-column: 3 / 4;
+}
+
+#projeto-container .projeto{
+    height: 300px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#projeto-container div.projeto-info{
+    width: 70%;
+}
+img.foto-projeto{
+    height: 100%;
+}
